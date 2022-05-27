@@ -4,13 +4,15 @@
   "description": "Blog Web Application",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "sudo nodemon server"
   },
   "keywords": [],
   "author": "Chris Ailey",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.8",
     "express": "^4.18.1",
+    "express-ejs-layouts": "^2.5.1",
     "mongoose": "^6.3.4"
   }
 }
